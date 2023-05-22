@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio - Mehak Rathore</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/d9073f3260.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<img src="image/mono.png" class="logo">
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#Services">Service</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fa-solid fa-rectangle-xmark" onclick="closemenu()"></i>
+				</ul>
+				   <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+               <div class="header-text">
+               	<p>Programmer / Developer</p>
+               	<h1>Hi, I'm <span>Mehak
+               	</span><br>Rathore From India</h1>
+             </div>
+		</div>
+	</div>
+	<!-------------about------------>
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="image/user.png">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>My name is Mehak Rathore. I'm a Btech student in Mathematics And Computing Branch at Madhav Institute Of Technology And Science. I was born and raised in Gwalior (M.P). As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills. Apart from coding, I love to dance, listen to music, and travel.</p>
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('Experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('Education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="Skills">
+						<ul>
+							<li><span>Programming</span><br>Knowledge in C++, DSA, and Python</li>
+							<li><span>Web Designing</span><br>Design many Websites</li>
+							<li><span>Web Development</span><br>Web app Development</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="Experience">
+						<ul>
+							<li><span>Minor Project 1</span><br>Advance Message Queuing Protocol(Using Simulation and Modelling)</li>
+							<li><span>Project on Web Designing</span><br>Personal Portfolio Website</li>
+							<li><span>Project on Web Designing</span><br>E-Commerce Website</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="Education">
+						<ul>
+							<li><span>2018</span><br>10th(C.B.S.C) from Green Wood Public School, Gwalior</li>
+							<li><span>2020</span><br>12TH(C.B.S.C) from Green Wood Public School, Gwalior</li>
+							<li><span>2020-2024</span><br>B.Tech(Mathematics And Computing) from Madhav Institute Of Technology And Science, Gwalior</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!---------Services--------------->
+	<div id = "Services">
+		<div class = "container">
+		<h1 class = "sub-title">My Services</h1> 
+		<div class="Services-list">
+			<div>
+				<i class="fa-solid fa-code"></i>
+				 <h2>Web Development</h2>
+				 <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).</p>
+				 <a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-crop-simple"></i>
+				 <h2>Web Designing</h2>
+				 <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips.</p>
+				 <a href="#">Learn more</a>
+			</div>
+		</div>
+		</div>		
+	</div>
+	<!------------portfolio-------------->
+	<div id = "portfolio">
+		<div class = "container">
+		<h1 class = "sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="image/work-1.png">
+				<div class="layer">
+					<h3>Advance Message Queuing Protocol(Using Simulation and Modelling)</h3>
+					<p>Queuing theory and simulation helps us to generate an automation system for accepting the connection requests of LinkedIn using Python. Queuing theory aims to design balanced systems that serve customers quickly and efficiently but do not cost too much to be sustainable faster customer service.</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="image/work-2.png">
+				<div class="layer">
+					<h3>Personal Portfolio Website</h3>
+					<p>A portfolio website is a unique way to showcase your workand let others know about yourself. It’s like an evergreen platform for your projects, case studies, and information about you.</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="image/work-3.png">
+				<div class="layer">
+					<h3>Social Media App</h3>
+					<p>Social media are interactive technologies that facilitate the creation and sharing of information, ideas, interests, and other forms of expression through virtual communities and networks.</p>
+					<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See more</a>
+	</div>
+	</div>
+<!-----------contact----------->
+   <div id = "contact">
+    <div class="container">
+    	<div class="row">
+    	<div class="contact-left">
+    		<h1 class="sub-title">Contact Me</h1>
+    		<p><i class="fa-solid fa-paper-plane"></i>mehakrathore376@gmail.com</p>
+    		<p><i class="fa-solid fa-square-phone"></i>9098478732</p>
+    		<div class="social-icons">
+    			<a href="https://www.facebook.com/mehak.rathore.752/"><i class="fa-brands fa-square-facebook"></i></a>
+    			<a href="https://instagram.com/mehakrathore66?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-square-instagram"></i></a>
+    			<a href="https://www.linkedin.com/in/mehak-rathore-4a8401255"><i class="fa-brands fa-linkedin"></i></i></a>
+    		</div>
+    			<a href="image/resume.pdf" download class="btn btn2">Download CV</a>
+    	</div>	
+    	<div class="contact-right">	
+    	   <form name="submit-to-google-sheet">
+    	   	<input type="text" name="Name" placeholder="Your Name" required>
+    	   	<input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder= "Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+    	   </form>
+    	   <span id="msg"></span>
+      </div>
+     </div>
+   </div>
+   <div class="copyright">
+   	<p>Copyright © Mehak. Made with <i class="fa-solid fa-heart"></i> Myself</p>
+   </div>
+</div>
+   <script> 
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+      	for(tablink of tablinks){
+      		tablink.classList.remove("active-link");
+      	}
+      	for(tabcontent of tabcontents){
+      		tabcontent.classList.remove("active-tab");
+      	}
+      	event.currentTarget.classList.add("active-link");
+      	document.getElementById(tabname).classList.add("active-tab");
+      }
+   </script>
+
+   <script>
+   	 var sidemeu = document.getElementById("sidemenu");
+   	 function openmenu(){
+   	 	sidemeu.style.right = "0";
+   	 }
+   	 function closemenu(){
+   	 	sidemeu.style.right = "-200px";
+   	 }
+   </script>
+   <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwpyVUC9QFp4jWjeatUajhesrMgfmvoJ33w5OdPwgCejgSfJgVKXBxrIue8yc8RrTlO/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message Sent Succeccfully"
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+      	},5000)
+      	form.result()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
