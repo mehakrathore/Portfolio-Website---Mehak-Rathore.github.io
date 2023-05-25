@@ -310,7 +310,7 @@ form .btn2{
 	color: #ff004f;
 }
 /*------------css for small screens-------*/
-nav.fa-solid{
+nav .fa-solid{
 	display: none;
 }
 @media only screen and (max-width: 600px){
@@ -325,7 +325,7 @@ nav.fa-solid{
 		font-size: 30px;
 	}
 	
-	nav.fa-solid{
+	nav .fa-solid{
           display: block;
           font-size: 25px;
 	}
@@ -340,7 +340,7 @@ nav.fa-solid{
 		z-index: 2;
 		transition: right 0.5s;
 	}
-		nav ul li{
+	nav ul li{
 		display: block;
 		margin: 25px;
 	}
